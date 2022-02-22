@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to top right, rgba(223, 93, 6, 0.781), rgb(6, 218, 233));
+}
+.heading{
+white-space: normal;
+width: 100%;
+background-color:palegreen;
+
+border:  5px solid red;
+box-shadow: 3px 3px 20px rgb(10, 185, 238);
+
+}
+.note{
+width: 100%;
+}
+.heading:hover{
+    transition: all 3s ease;
+    box-shadow: 5px 5px 5px rgb(34, 34, 34);
+}
+#dom{
+padding:23px
+}
+canvas{
+    border:5px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px grey;
+}
+.copy_footer{
+   
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 3;
+    box-shadow: 5px -1px 5px rgb(6, 72, 255);
+}
+img{
+    width: 300px;
+}
